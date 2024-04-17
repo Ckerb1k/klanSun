@@ -1,0 +1,19 @@
+p{color: rgb(13, 179, 123);
+    background-color: rgba(120, 12, 153, 0.623);}
+    body{background: #000000;}
+  table{text-align: center;
+      width: 400px;height: 300px;}
+      p.change-text{
+        color: #f66d52; /* Цвет текста */
+        font-size: 2em; /* Размер текста */
+        font-weight: bold;
+        padding: 20px 0px;
+        text-transform: uppercase;
+        line-height: 1;
+        -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease; 
+      }
+      p.change-text:hover{
+        color: #5265f6; /* Меняем цвет текста */
+      }
+           
